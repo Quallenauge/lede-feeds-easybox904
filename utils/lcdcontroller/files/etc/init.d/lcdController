@@ -6,6 +6,8 @@ START=98
 SERVICE_USE_PID=1
 
 start() {
+	# Disable vtconsole
+	echo "0" >/sys/class/vtconsole/vtcon1/bind
 	/usr/bin/lua /usr/sbin/controller.lua 2>&1 >/dev/null &
 }
 
