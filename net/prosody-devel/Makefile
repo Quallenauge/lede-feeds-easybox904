@@ -8,7 +8,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=prosody-devel
-PKG_REV:=6f97acc4583b
+PKG_REV:=1d8e1f7a587c
 PKG_VERSION:=r$(PKG_REV)
 PKG_RELEASE:=1
 
